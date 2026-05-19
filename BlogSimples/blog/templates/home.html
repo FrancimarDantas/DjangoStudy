@@ -8,7 +8,7 @@
 <body>
 
     {% for post in posta %}
-    <h1>{{ post.title }}</h1>
+    <h1>{{ post.title }} <a href="#">{{ post.autho.username }}</a></h1>
     <div>
         {{ post.content|safe }}
     </div>
