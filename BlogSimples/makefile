@@ -8,5 +8,3 @@ migrate:
 
 	${PYTHON} makemigrations
 
-clear:
-	rm db.sqlite3

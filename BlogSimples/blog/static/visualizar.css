@@ -1,0 +1,51 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background-color: #fdfdfd;
+    color: #2c3e50;
+    line-height: 1.8;
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Conteúdo do post */
+p {
+    font-size: 1.2rem;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    text-align: justify;
+}
+
+/* Links dentro do conteúdo */
+p a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+p a:hover {
+    color: #1d6fa5;
+    text-decoration: underline;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    body {
+        padding: 20px 10px;
+    }
+
+    p {
+        font-size: 1rem;
+        padding: 15px;
+    }
+}
